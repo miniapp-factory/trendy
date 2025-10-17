@@ -26,7 +26,7 @@ export default function RootLayout({
         <MiniAppProvider>
           <div className="font-sans min-h-screen flex flex-col place-content-between">
             <Header />
-            {children}
+            <main className="flex-1">{children}</main>
             <Footer />
           </div>
         </MiniAppProvider>
